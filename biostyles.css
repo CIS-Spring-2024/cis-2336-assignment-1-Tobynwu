@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: darkred;
+    background-color: red;
     padding: 20px 0;
 }
 
@@ -24,7 +24,68 @@ header h1{
     color: antiquewhite;
     display: inline-block;
 }
-
+.owner-img {
+    width: 300px;
+    height: auto;
+}
 nav {
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+}
+
+nav ul li a:hover {
+    background-color: #900;
+}
+
+.owner-bio {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 50px 0;
     text-align: center;
+}
+
+.owner-info{
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.owner-info h1 {
+    font-size: 36px;
+    color: red;
+}
+
+.owner-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.owner-info p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
