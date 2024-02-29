@@ -67,14 +67,14 @@ nav ul li a:hover {
 
 .owner-bio {
     text-decoration: none;
-    background-color: #fff;
+    background-color: rgba(202, 44, 44, 0.8);
     padding: 50px 0;
     text-align: center;
 }
 
 .owner-info{
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
 }
