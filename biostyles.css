@@ -24,10 +24,20 @@ header h1{
     color: antiquewhite;
     display: inline-block;
 }
-.owner-img {
+
+img{
     width: 300px;
-    height: auto;
+    height: auto
 }
+
+.background-image {
+    background-image: url('uh image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    opacity: 0.8;
+}
+
 nav {
     float: right;
 }
@@ -64,7 +74,9 @@ nav ul li a:hover {
 
 .owner-info{
     text-decoration: none;
-    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .owner-info h1 {
