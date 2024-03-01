@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,6 +18,8 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -73,6 +76,7 @@ footer {
 
 
 .image {
+    isolation: isolate;
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -80,6 +84,6 @@ footer {
 
 
 .image img{
-    width: 200px;
+    width: 600px;
     height: auto;
 }
