@@ -13,7 +13,7 @@ header {
 }
 
 .welcome-bar {
-    background-color: #ff0000;
+    background-color: #aa3131;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -32,6 +32,17 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
+    position: relative;
+}
+
+.container::before{
+    content:"";
+    position: absolute;
+    background-image: url('https://wallpapercave.com/wp/wp10321955.png');
+    background-size: cover;
+    background-position: center; 
+    inset: 0;
+    opacity: .2; 
 }
 
 .home-buttons {
@@ -39,12 +50,13 @@ footer {
     flex-direction: column;
     gap: 10px;
     width: 200px;
+    isolation: isolate;
 }
 
 .home-buttons button {
     padding: 20px;
     width: 100%;
-    background-color: #ff4d4d;
+    background-color: rgba(255, 77, 77, 1);
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -56,17 +68,18 @@ footer {
 }
 
 .home-buttons button:hover {
-    background-color: #cc0000;
+    background-color: rgba(204, 0, 0, 1);
 }
 
-/*
+
 .image {
     flex: 1;
     display: flex;
     justify-content: flex-end;
 }
-*/
+
+
 .image img{
-    width: 100px;
+    width: 200px;
     height: auto;
 }

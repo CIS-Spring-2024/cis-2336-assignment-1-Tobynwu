@@ -28,6 +28,7 @@ header h1{
 }
 
 img{
+    isolation: isolate;
     padding: auto;
     width: 300px;
     height: auto;
@@ -65,12 +66,23 @@ nav ul li a:hover {
 
 .owner-bio {
     text-decoration: none;
-    background-color: rgba(78, 50, 50, 0.8);
+    /*background-color: rgba(78, 50, 50, 0.8); */
     padding: 50px 0;
     text-align: center;
+    position: relative;
+}
+.owner-bio::before{
+    content:"";
+    position: absolute;
+    background-image: url('https://wallpapercave.com/wp/wp10321955.png');
+    background-size: cover;
+    background-position: center; 
+    inset: 0;
+    opacity: .2; 
 }
 
 .owner-info{
+    isolation: isolate;
     text-decoration: none;
     background-color: white;
     padding: 20px;
