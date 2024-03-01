@@ -74,6 +74,21 @@ footer {
     background-color: rgba(204, 0, 0, 1);
 }
 
+.Middletext{
+    isolation: isolate;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Middletext h1{
+    font-size: 36px;
+    color: red;
+}
+
+.Middletext p{
+    margin: 20px 0;
+    line-height: 1.6;
+}
 
 .image {
     isolation: isolate;
@@ -86,4 +101,5 @@ footer {
 .image img{
     width: 600px;
     height: auto;
+    border: 5px solid white;
 }
